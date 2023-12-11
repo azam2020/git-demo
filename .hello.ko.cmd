@@ -1,0 +1,1 @@
+cmd_/home/pi/azam/hello.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/pi/azam/hello.ko /home/pi/azam/hello.o /home/pi/azam/hello.mod.o;  true
