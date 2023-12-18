@@ -40,12 +40,12 @@ def filter_blocked_wifi(scan_result):
 		print("-----------------------------------------------------------------------------------------")
 
 def find_value(block,key):
-	start_index = block.find(key)
-	if start_index != -1:
-		start_index += len(key)
-		end_index = block.find('\n',start_index)
-		if end_index != -1:
-			return block[start_index:end_index].strip()
+	index = block.find(key)
+	if index != -1:
+		count_index_start = index + len(key)
+		count_index_end = block.find('\n',count_index_start)
+		if count_index_end != -1:
+			return block[count_index_start:count_index_end].strip()
 
 
 while(True):
