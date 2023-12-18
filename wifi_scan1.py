@@ -49,7 +49,7 @@ def reset():
 	print("------------------------------------------------------------------------")
 
 def scan_wifi():
-	scan_result = subprocess.check_output(['sudo', 'iwlist', 'wlo1', 'scan']) 
+	scan_result = subprocess.check_output(['sudo', 'iwlist', 'wlan0', 'scan']) 
 	scan_result = scan_result.decode('utf-8') 
 	return scan_result
 
@@ -91,8 +91,8 @@ def display_result(grouped_networks):
 			print("SSID: ", key)
 			print("Signal Strength: ", grouped_networks[key]['Signal Strength'][i])
 			print("Frequency: ", grouped_networks[key]['Frequency'][i])
-			print("Encryption key: ", grouped_networks[key]['Encryption key'][i])
-			print("-----------------------------------------------------------------------------------------")
+			print("Encryption key: ", grouped_networks[key]['Encryption key'][i],"\n")
+		print("-----------------------------------------------------------------------------------------")
 
 def extract_data(block, var):
 	start_index = block.find(var)
