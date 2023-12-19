@@ -137,7 +137,7 @@ while (True):
 			for x in block:
 				print(x)
 		else:
-			print(f"wifi signal {ssid} is not found, please check if it is present in the available wifi list or not") 
+			print(f"Wifi signal {ssid} is not found, please check if it is present in the available wifi list or not") 
 		print("--------------------------------------------------------------------------------------------------")
 
 	elif option=='r':
