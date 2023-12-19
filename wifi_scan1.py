@@ -16,9 +16,9 @@ def block_function(ssid):
 		total_blocked_ssid.append(ssid) 
 		write_file(total_blocked_ssid)
 		del grouped_blocks[ssid]
-		print(f"wifi signal {ssid} has been successfully blocked")
+		print(f"Wifi signal {ssid} has been blocked successfully.")
 	else:
-		print(f"wifi signal {ssid} is not found")
+		print(f"Wifi signal {ssid} is not found")
 	print("-------------------------------------------------------------------")
 
 def unblock_function(ssid):
@@ -27,9 +27,9 @@ def unblock_function(ssid):
 		total_blocked_ssid.remove(ssid)
 		write_file(total_blocked_ssid) 
 		filter_blocked_wifi(scan_wifi())
-		print(f"wifi signal {ssid} is unblocked")
+		print(f"Wifi signal {ssid} has been unblocked successfully.")
 	else:
-		print(f"wifi signal {ssid} is not found in the blocked wifi list")
+		print(f"Wifi signal {ssid} is not found in the blocked wifi list")
 	print("-----------------------------------------------------------------------") 
 
 def display_blocked_wifi():
@@ -45,7 +45,7 @@ def display_blocked_wifi():
 def reset():
 	subprocess.check_output(['rm', 'blocked_signal.txt'])
 	subprocess.check_output(['touch','blocked_signal.txt'])
-	print("Done!")
+	print("All blocked wifi signals have been successfully unblocked.")
 	print("------------------------------------------------------------------------")
 
 def scan_wifi():
@@ -137,7 +137,7 @@ while (True):
 			for x in block:
 				print(x)
 		else:
-			print(f"wifi signal {ssid} is not found, check if it is present in the available wifi list or not") 
+			print(f"wifi signal {ssid} is not found, please check if it is present in the available wifi list or not") 
 		print("--------------------------------------------------------------------------------------------------")
 
 	elif option=='r':
