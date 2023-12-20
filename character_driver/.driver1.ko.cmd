@@ -1,0 +1,1 @@
+cmd_/home/pi/Azam/git-demo/character_driver/driver1.ko := ld -r -EL  -maarch64elf -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T arch/arm64/module.lds -o /home/pi/Azam/git-demo/character_driver/driver1.ko /home/pi/Azam/git-demo/character_driver/driver1.o /home/pi/Azam/git-demo/character_driver/driver1.mod.o;  true

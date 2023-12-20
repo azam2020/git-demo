@@ -1,0 +1,1 @@
+cmd_/home/pi/Azam/git-demo/character_driver/driver1.mod := printf '%s\n'   driver1.o | awk '!x[$$0]++ { print("/home/pi/Azam/git-demo/character_driver/"$$0) }' > /home/pi/Azam/git-demo/character_driver/driver1.mod

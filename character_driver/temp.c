@@ -1,13 +1,3 @@
-/***************************************************************************//**
-*  \file       driver.c
-*
-*  \details    Simple Linux device driver (Real Linux Device Driver)
-*
-*  \author     EmbeTronicX
-*
-*  \Tested with Linux raspberrypi 5.10.27-v7l-embetronicx-custom+
-*
-*******************************************************************************/
 #include <linux/kernel.h>
 #include <linux/init.h>
 #include <linux/module.h>
@@ -25,6 +15,7 @@ dev_t dev = 0;
 static struct class *dev_class;
 static struct cdev etx_cdev;
 uint8_t *kernel_buffer;
+
 
 /*
 ** Function Prototypes

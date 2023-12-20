@@ -1,10 +1,8 @@
-cmd_/home/pi/Azam/git-demo/test_module/hello.mod.o :=  gcc-12 -Wp,-MMD,/home/pi/Azam/git-demo/test_module/.hello.mod.o.d -nostdinc -I/usr/src/linux-headers-6.1.0-rpi7-common-rpi/arch/arm64/include -I./arch/arm64/include/generated -I/usr/src/linux-headers-6.1.0-rpi7-common-rpi/include -I./include -I/usr/src/linux-headers-6.1.0-rpi7-common-rpi/arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I/usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/uapi -I./include/generated/uapi -include /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/compiler-version.h -include /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/kconfig.h -include /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=/usr/src/linux-headers-6.1.0-rpi7-common-rpi/= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret+leaf -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-dangling-pointer -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=2 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1432 -DMODULE -DKBUILD_BASENAME='"hello.mod"' -DKBUILD_MODNAME='"hello"' -D__KBUILD_MODNAME=kmod_hello -c -o /home/pi/Azam/git-demo/test_module/hello.mod.o /home/pi/Azam/git-demo/test_module/hello.mod.c
+cmd_/home/pi/Azam/git-demo/character_driver/driver1.o :=  gcc-12 -Wp,-MMD,/home/pi/Azam/git-demo/character_driver/.driver1.o.d -nostdinc -I/usr/src/linux-headers-6.1.0-rpi7-common-rpi/arch/arm64/include -I./arch/arm64/include/generated -I/usr/src/linux-headers-6.1.0-rpi7-common-rpi/include -I./include -I/usr/src/linux-headers-6.1.0-rpi7-common-rpi/arch/arm64/include/uapi -I./arch/arm64/include/generated/uapi -I/usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/uapi -I./include/generated/uapi -include /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/compiler-version.h -include /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/kconfig.h -include /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/compiler_types.h -D__KERNEL__ -mlittle-endian -DCC_USING_PATCHABLE_FUNCTION_ENTRY -DKASAN_SHADOW_SCALE_SHIFT= -fmacro-prefix-map=/usr/src/linux-headers-6.1.0-rpi7-common-rpi/= -Wall -Wundef -Werror=strict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -fshort-wchar -fno-PIE -Werror=implicit-function-declaration -Werror=implicit-int -Werror=return-type -Wno-format-security -std=gnu11 -mgeneral-regs-only -DCONFIG_CC_HAS_K_CONSTRAINT=1 -Wno-psabi -mabi=lp64 -fno-asynchronous-unwind-tables -fno-unwind-tables -mbranch-protection=pac-ret+leaf -Wa,-march=armv8.5-a -DARM64_ASM_ARCH='"armv8.5-a"' -DKASAN_SHADOW_SCALE_SHIFT= -fno-delete-null-pointer-checks -Wno-frame-address -Wno-format-truncation -Wno-format-overflow -Wno-address-of-packed-member -O2 -fno-allow-store-data-races -Wframe-larger-than=2048 -fstack-protector-strong -Wno-main -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-dangling-pointer -fno-omit-frame-pointer -fno-optimize-sibling-calls -ftrivial-auto-var-init=zero -fno-stack-clash-protection -fpatchable-function-entry=2 -Wdeclaration-after-statement -Wvla -Wno-pointer-sign -Wcast-function-type -Wno-stringop-truncation -Wno-stringop-overflow -Wno-restrict -Wno-maybe-uninitialized -Wno-array-bounds -Wno-alloc-size-larger-than -Wimplicit-fallthrough=5 -fno-strict-overflow -fno-stack-check -fconserve-stack -Werror=date-time -Werror=incompatible-pointer-types -Werror=designated-init -Wno-packed-not-aligned -mstack-protector-guard=sysreg -mstack-protector-guard-reg=sp_el0 -mstack-protector-guard-offset=1432  -DMODULE  -DKBUILD_BASENAME='"driver1"' -DKBUILD_MODNAME='"driver1"' -D__KBUILD_MODNAME=kmod_driver1 -c -o /home/pi/Azam/git-demo/character_driver/driver1.o /home/pi/Azam/git-demo/character_driver/driver1.c  
 
-source_/home/pi/Azam/git-demo/test_module/hello.mod.o := /home/pi/Azam/git-demo/test_module/hello.mod.c
+source_/home/pi/Azam/git-demo/character_driver/driver1.o := /home/pi/Azam/git-demo/character_driver/driver1.c
 
-deps_/home/pi/Azam/git-demo/test_module/hello.mod.o := \
-    $(wildcard include/config/MODULE_UNLOAD) \
-    $(wildcard include/config/RETPOLINE) \
+deps_/home/pi/Azam/git-demo/character_driver/driver1.o := \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/compiler-version.h \
     $(wildcard include/config/CC_VERSION_TEXT) \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/kconfig.h \
@@ -18,39 +16,16 @@ deps_/home/pi/Azam/git-demo/test_module/hello.mod.o := \
     $(wildcard include/config/CC_HAS_ASM_INLINE) \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/compiler_attributes.h \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/compiler-gcc.h \
+    $(wildcard include/config/RETPOLINE) \
     $(wildcard include/config/ARCH_USE_BUILTIN_BSWAP) \
     $(wildcard include/config/SHADOW_CALL_STACK) \
     $(wildcard include/config/KCOV) \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/arch/arm64/include/asm/compiler.h \
-  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/module.h \
-    $(wildcard include/config/MODULES) \
-    $(wildcard include/config/SYSFS) \
-    $(wildcard include/config/MODULES_TREE_LOOKUP) \
-    $(wildcard include/config/LIVEPATCH) \
-    $(wildcard include/config/STACKTRACE_BUILD_ID) \
-    $(wildcard include/config/ARCH_USES_CFI_TRAPS) \
-    $(wildcard include/config/MODULE_SIG) \
-    $(wildcard include/config/ARCH_WANTS_MODULES_DATA_IN_VMALLOC) \
-    $(wildcard include/config/GENERIC_BUG) \
-    $(wildcard include/config/KALLSYMS) \
-    $(wildcard include/config/SMP) \
-    $(wildcard include/config/TRACEPOINTS) \
-    $(wildcard include/config/TREE_SRCU) \
-    $(wildcard include/config/BPF_EVENTS) \
-    $(wildcard include/config/JUMP_LABEL) \
-    $(wildcard include/config/TRACING) \
-    $(wildcard include/config/EVENT_TRACING) \
-    $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
-    $(wildcard include/config/KPROBES) \
-    $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
-    $(wildcard include/config/KUNIT) \
-    $(wildcard include/config/PRINTK_INDEX) \
-    $(wildcard include/config/CONSTRUCTORS) \
-    $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
-  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/list.h \
-    $(wildcard include/config/DEBUG_LIST) \
-  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/container_of.h \
-  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/build_bug.h \
+  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/init.h \
+    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
+    $(wildcard include/config/STRICT_KERNEL_RWX) \
+    $(wildcard include/config/STRICT_MODULE_RWX) \
+    $(wildcard include/config/LTO_CLANG) \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/compiler.h \
     $(wildcard include/config/TRACE_BRANCH_PROFILING) \
     $(wildcard include/config/PROFILE_ALL_BRANCHES) \
@@ -87,6 +62,36 @@ deps_/home/pi/Azam/git-demo/test_module/hello.mod.o := \
     $(wildcard include/config/KCSAN) \
     $(wildcard include/config/KCSAN_WEAK_MEMORY) \
     $(wildcard include/config/KCSAN_IGNORE_ATOMICS) \
+  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/module.h \
+    $(wildcard include/config/MODULES) \
+    $(wildcard include/config/SYSFS) \
+    $(wildcard include/config/MODULES_TREE_LOOKUP) \
+    $(wildcard include/config/LIVEPATCH) \
+    $(wildcard include/config/STACKTRACE_BUILD_ID) \
+    $(wildcard include/config/ARCH_USES_CFI_TRAPS) \
+    $(wildcard include/config/MODULE_SIG) \
+    $(wildcard include/config/ARCH_WANTS_MODULES_DATA_IN_VMALLOC) \
+    $(wildcard include/config/GENERIC_BUG) \
+    $(wildcard include/config/KALLSYMS) \
+    $(wildcard include/config/SMP) \
+    $(wildcard include/config/TRACEPOINTS) \
+    $(wildcard include/config/TREE_SRCU) \
+    $(wildcard include/config/BPF_EVENTS) \
+    $(wildcard include/config/JUMP_LABEL) \
+    $(wildcard include/config/TRACING) \
+    $(wildcard include/config/EVENT_TRACING) \
+    $(wildcard include/config/FTRACE_MCOUNT_RECORD) \
+    $(wildcard include/config/KPROBES) \
+    $(wildcard include/config/HAVE_STATIC_CALL_INLINE) \
+    $(wildcard include/config/KUNIT) \
+    $(wildcard include/config/PRINTK_INDEX) \
+    $(wildcard include/config/MODULE_UNLOAD) \
+    $(wildcard include/config/CONSTRUCTORS) \
+    $(wildcard include/config/FUNCTION_ERROR_INJECTION) \
+  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/list.h \
+    $(wildcard include/config/DEBUG_LIST) \
+  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/container_of.h \
+  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/build_bug.h \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/err.h \
   arch/arm64/include/generated/uapi/asm/errno.h \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/uapi/asm-generic/errno.h \
@@ -139,7 +144,6 @@ deps_/home/pi/Azam/git-demo/test_module/hello.mod.o := \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/stringify.h \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/export.h \
     $(wildcard include/config/MODVERSIONS) \
-    $(wildcard include/config/HAVE_ARCH_PREL32_RELOCATIONS) \
     $(wildcard include/config/TRIM_UNUSED_KSYMS) \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/jump_label.h \
     $(wildcard include/config/HAVE_ARCH_JUMP_LABEL_RELATIVE) \
@@ -150,10 +154,6 @@ deps_/home/pi/Azam/git-demo/test_module/hello.mod.o := \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/arch/arm64/include/asm/alternative.h \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/arch/arm64/include/asm/alternative-macros.h \
   arch/arm64/include/generated/asm/cpucaps.h \
-  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/init.h \
-    $(wildcard include/config/STRICT_KERNEL_RWX) \
-    $(wildcard include/config/STRICT_MODULE_RWX) \
-    $(wildcard include/config/LTO_CLANG) \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/arch/arm64/include/asm/atomic_lse.h \
   /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/atomic/atomic-arch-fallback.h \
     $(wildcard include/config/GENERIC_ATOMIC64) \
@@ -920,16 +920,7 @@ deps_/home/pi/Azam/git-demo/test_module/hello.mod.o := \
     $(wildcard include/config/HAVE_MOD_ARCH_SPECIFIC) \
     $(wildcard include/config/MODULES_USE_ELF_REL) \
     $(wildcard include/config/MODULES_USE_ELF_RELA) \
-  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/build-salt.h \
-    $(wildcard include/config/BUILD_SALT) \
-  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/elfnote.h \
-  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/elfnote-lto.h \
-  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/export-internal.h \
-  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/include/linux/vermagic.h \
-    $(wildcard include/config/PREEMPT_BUILD) \
-  include/generated/utsrelease.h \
-  /usr/src/linux-headers-6.1.0-rpi7-common-rpi/arch/arm64/include/asm/vermagic.h \
 
-/home/pi/Azam/git-demo/test_module/hello.mod.o: $(deps_/home/pi/Azam/git-demo/test_module/hello.mod.o)
+/home/pi/Azam/git-demo/character_driver/driver1.o: $(deps_/home/pi/Azam/git-demo/character_driver/driver1.o)
 
-$(deps_/home/pi/Azam/git-demo/test_module/hello.mod.o):
+$(deps_/home/pi/Azam/git-demo/character_driver/driver1.o):

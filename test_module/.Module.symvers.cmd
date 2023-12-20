@@ -1,1 +1,1 @@
-cmd_/home/pi/azam/test_module/Module.symvers :=  sed 's/ko$$/o/'  /home/pi/azam/test_module/modules.order | scripts/mod/modpost -m -a    -o /home/pi/azam/test_module/Module.symvers -e -i Module.symvers -T - 
+cmd_/home/pi/Azam/git-demo/test_module/Module.symvers :=  sed 's/ko$$/o/'  /home/pi/Azam/git-demo/test_module/modules.order | scripts/mod/modpost -m -a    -o /home/pi/Azam/git-demo/test_module/Module.symvers -e -i Module.symvers -T - 

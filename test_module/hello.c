@@ -7,7 +7,7 @@ MODULE_DESCRIPTION("A simple kernel module");
 
 static int hello_init(void)
 {
-  printk(KERN_ALERT "Hello World, This Module Init Function\n");
+  printk(KERN_ALERT "Hi, From Init Function\n");
  return 0; 
 }
 

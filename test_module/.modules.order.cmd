@@ -1,1 +1,1 @@
-cmd_/home/pi/azam/test_module/modules.order := {   echo /home/pi/azam/test_module/hello.ko; :; } > /home/pi/azam/test_module/modules.order
+cmd_/home/pi/Azam/git-demo/test_module/modules.order := {   echo /home/pi/Azam/git-demo/test_module/hello.ko; :; } > /home/pi/Azam/git-demo/test_module/modules.order

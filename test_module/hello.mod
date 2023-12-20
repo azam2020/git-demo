@@ -1,1 +1,1 @@
-/home/pi/azam/test_module/hello.o
+/home/pi/Azam/git-demo/test_module/hello.o
