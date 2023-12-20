@@ -66,6 +66,7 @@ static int driver_init(void)
 static void driver_exit(void)
 {
  printk(KERN_ALERT "Good bye, From Exit Function\n");
+ kfree(kernel_buffer);
  unregister_chrdev(139,"Simple Char Drv");
 }
 
