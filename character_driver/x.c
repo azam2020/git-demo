@@ -27,7 +27,7 @@ int main()
                 printf("*********************************\n");
                 scanf(" %c", &option);
                 printf("Your Option = %c\n", option);
-                
+
                 switch(option) {
                         case '1':
                                 printf("Enter the string to write into driver :");
